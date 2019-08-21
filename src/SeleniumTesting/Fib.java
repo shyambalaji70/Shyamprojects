@@ -7,7 +7,14 @@ public class Fib {
 		int c;
 		System.out.println(a);
 		System.out.println(b);
-		
+		for (int i=0; i<5; i++) {
+			c=a+b;
+			a=b;
+			b=c;
+			System.out.println(c);
+		}
+			
 	}
 
-}
+	}
+
