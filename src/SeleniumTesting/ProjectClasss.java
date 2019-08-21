@@ -8,6 +8,7 @@ public class ProjectClasss {
 		int d;
 		d=a+b+c;
 		System.out.println(d);
+		System.out.println(a);
 		
 		
 	}
